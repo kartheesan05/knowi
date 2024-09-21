@@ -5,7 +5,8 @@ function MemberCard({ name, designation, imageUrl }) {
   return (
     <div className="member-card">
       <div className="image-wrapper">
-        <Image src={imageUrl} width={250} height={250} alt="photo" priority />
+        <Image src={imageUrl} width={1000} height={1000} alt="photo" priority />
+        {/* <img src={imageUrl} alt="photo" /> */}
       </div>
       <div className="member-det">
         <h3>{name}</h3>
