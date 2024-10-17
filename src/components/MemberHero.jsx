@@ -6,14 +6,20 @@ function MemberHero() {
       <h1 className="animate-title">MEET THE TEAM</h1>
       <p>We are a diverse team of ML enthusiasts</p>
       <div className="links">
-        <a href="#Core">
-          <li>Core</li>
+        <a href="#Office Bearers">
+          <li>Office Bearers</li>
         </a>
-        <a href="#Executive">
-          <li>Executive</li>
+        <a href="#Planning">
+          <li>Planning</li>
         </a>
-        <a href="#Members">
-          <li>Members</li>
+        <a href="#Research">
+          <li>Research</li>
+        </a>
+        <a href="#Marketing">
+          <li>Marketing</li>
+        </a>
+        <a href="#Web">
+          <li>Web</li>
         </a>
       </div>
     </>
