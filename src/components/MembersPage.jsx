@@ -5,6 +5,13 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import MemberSection from "@/components/MemberSection";
 import MemberHero from "@/components/MemberHero";
 import { useEffect, useState } from "react";
+import {
+  office_bearers,
+  planning,
+  marketing,
+  research,
+  web,
+} from "@/lib/team_data";
 
 const MembersPage = () => {
   const [isMobile, setIsMobile] = useState(false);
@@ -37,9 +44,11 @@ const MembersPage = () => {
         </div>
       )}
       <div className="members-cards">
-        <MemberSection section={"Core"} />
-        {/* <MemberSection section={"Executive"} />
-        <MemberSection section={"Members"} /> */}
+        <MemberSection section={"Office Bearers"} data={office_bearers} />
+        <MemberSection section={"Planning"} data={planning} />
+        <MemberSection section={"Research"} data={research} />
+        <MemberSection section={"Marketing"} data={marketing} />
+        <MemberSection section={"Web"} data={web} />
       </div>
     </div>
   );
