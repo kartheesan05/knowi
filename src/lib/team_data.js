@@ -84,7 +84,8 @@ export const office_bearers = [
     "name": "Sahitya A",
     "designation": "Mentor Director",
     "photo": "https://drive.google.com/open?id=1lvBksuafC3DBThPteYzUGcWXV5rPyb9t",
-    "linkedin": "https://www.linkedin.com/in/sahitya-a-43ab38227/"
+    "linkedin": "https://www.linkedin.com/in/sahitya-a-43ab38227/",
+    "pic": "Sahitya.webp"
   }
 ];
 
@@ -233,7 +234,8 @@ export const marketing = [
     "name": "Siddarth J K",
     "designation": "Marketing Executive",
     "photo": "https://drive.google.com/open?id=1q77HKE5pgJITO3PugaVTG2qg5GK6cx7o",
-    "linkedin": "no acc"
+    "linkedin": "no acc",
+    "pic": "Siddarth.webp"
   },
   {
     "team": "Marketing",
@@ -283,7 +285,8 @@ export const research = [
     "name": "Hemanth K R",
     "designation": "Senior Research Executive",
     "photo": "https://drive.google.com/open?id=1_iLo4HwcC4N0tS9GNndSZa1tyB7UTsXq",
-    "linkedin": "https://www.linkedin.com/in/hemanthkr02/"
+    "linkedin": "https://www.linkedin.com/in/hemanthkr02/",
+    "pic": "Hemanth.webp"
   },
   {
     "team": "Research",
@@ -333,21 +336,24 @@ export const web = [
     "name": "Bhuvaneshwaran A",
     "designation": "Web Lead",
     "photo": "https://drive.google.com/open?id=1Z3YcyQE0sVkW5iGiqPT-rhOQCXGxJfMr",
-    "linkedin": "https://www.linkedin.com/in/bhuvaneshwaran-a-50343b257/"
+    "linkedin": "https://www.linkedin.com/in/bhuvaneshwaran-a-50343b257/",
+    "pic": "Bhuvaneshwaran.webp"
   },
   {
     "team": "Web",
     "name": "Kartheesan Senthilkumar",
     "designation": "Senior Web Developer",
     "photo": "https://drive.google.com/open?id=1zOzDBoRw4AcvX2p8J3CZQM5-7uOiSBa8",
-    "linkedin": "https://www.linkedin.com/in/kartheesan05/"
+    "linkedin": "https://www.linkedin.com/in/kartheesan05/",
+    "pic": "Kartheesan.webp"
   },
   {
     "team": "Web",
     "name": "Nithiyanandam S",
     "designation": "Web Developer",
     "photo": "https://drive.google.com/open?id=1HXn5TaKw1BDcOLZpJq4leBUfmYK8lgmr",
-    "linkedin": "no acc "
+    "linkedin": "no acc ",
+    "pic": "Nithiyanandam.webp"
   },
   {
     "team": "Web",

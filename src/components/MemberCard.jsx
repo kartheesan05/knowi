@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 
-function MemberCard({ name, designation, imageUrl }) {
+function MemberCard({ name, designation, imageUrl, linkedin }) {
   return (
     <div className="member-card">
       <div className="image-wrapper">
@@ -21,7 +21,7 @@ function MemberCard({ name, designation, imageUrl }) {
         <h3>{name}</h3>
         <p>{designation}</p>
       </div>
-      <a href="https://linkedin.com" target="_blank">
+      <a href={linkedin} target="_blank">
         <img className="linkedin" src="/linkedin.svg" alt="linkedin" />
       </a>
     </div>

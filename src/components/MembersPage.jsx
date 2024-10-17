@@ -46,8 +46,8 @@ const MembersPage = () => {
       <div className="members-cards">
         <MemberSection section={"Office Bearers"} data={office_bearers} />
         <MemberSection section={"Planning"} data={planning} />
-        <MemberSection section={"Research"} data={research} />
         <MemberSection section={"Marketing"} data={marketing} />
+        <MemberSection section={"Research"} data={research} />
         <MemberSection section={"Web"} data={web} />
       </div>
     </div>

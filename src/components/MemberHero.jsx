@@ -1,5 +1,3 @@
-
-
 function MemberHero() {
   return (
     <>
@@ -12,11 +10,11 @@ function MemberHero() {
         <a href="#Planning">
           <li>Planning</li>
         </a>
-        <a href="#Research">
-          <li>Research</li>
-        </a>
         <a href="#Marketing">
           <li>Marketing</li>
+        </a>
+        <a href="#Research">
+          <li>Research</li>
         </a>
         <a href="#Web">
           <li>Web</li>
