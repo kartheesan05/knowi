@@ -1,7 +1,9 @@
-import Home from "../components/Home";
+'use client'
 
-export default function App() {
+import App from '@/homepage/page'
+
+export default function Home() {
   return (
-    <Home/>
+    <App/>
   );
 }

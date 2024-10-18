@@ -1,0 +1,119 @@
+.titleContainer{
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.title {
+  font-size: 3rem;
+  color: #fff;
+}
+
+
+
+.carouselSection {
+  position: relative;
+  height: 500vh;
+  
+}
+
+.stickyContainer {
+  background-color: black;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  display: flex;
+  /* align-items: center; */
+  overflow: hidden;
+}
+
+.image {
+  display: grid;
+  grid-template-columns:repeat(7, 1fr);
+  grid-template-rows: 1fr;
+  grid-gap: 3vw;
+  padding: 5em 4em ;
+}
+
+.card {
+  box-shadow: 0px 0px 6.2px #fff;
+  position: relative;
+  overflow: hidden;
+  height: 450px;
+  width: 355px;
+  border-radius: 0.4em;
+  border: 1.9px solid #fff;
+  background-color: black;
+  margin-bottom: 20px;
+}
+
+.cardImage {
+  border: 2px solid #fff;
+  border-radius: 0.3em;
+  margin: 10px;
+  width: 330px;
+  height: 300px;
+  display: block;
+}
+
+.cardContent {
+  position: absolute;
+  margin:  10px;
+}
+
+.cardTitle {
+  font-size: 2rem;
+  margin:  10px;
+  color: #fff;
+}
+
+.cardrole{
+  font-size: 1.2rem;
+  margin:  10px;
+  text-shadow: none;
+  color: #fff;
+}
+/* Media queries for different screen sizes */
+
+/* Tablets (600px and up) */
+@media (max-width: 768px) {
+  .carousel {
+    padding: 0 2vw; /* Adjust padding for tablets */
+  }
+
+  .card {
+    height: 350px;
+    width: 280px;
+  }
+
+  .cardImage {
+    width: 255px;
+    height: 220px;
+  }
+
+  .cardTitle {
+    font-size: 1rem;
+  }
+}
+
+/* Mobile (480px and up) */
+@media (max-width: 480px) {
+  .carousel {
+    gap: 10px; /* Further reduce gap for mobile */
+    padding: 0 1vw; /* Adjust padding for mobile */
+  }
+
+  .card {
+    height: 300px;
+    width: 200px;
+  }
+
+  .cardImage {
+    width: 180px;
+    height: 90px;
+  }
+
+  .cardTitle {
+    font-size: 0.9rem;
+  }
+}

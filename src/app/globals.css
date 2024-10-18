@@ -1,0 +1,32 @@
+html {
+    scroll-behavior: smooth;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #fff;
+}
+
+p {
+    font-size: 1em;
+    margin: 5px 0;
+    color: #fff;
+}
+
+@media screen and (max-width: 600px) {
+    h2 {
+        font-size: 1.5em;
+    }
+
+    p {
+        font-size: 0.9em;
+    }
+}
+
+:root {
+    /* colors */
+    --color-text: #fff;
+    --color-primary: #fff;
+
+    --color-bg: black;
+}

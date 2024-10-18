@@ -1,0 +1,12 @@
+/* @import "@/app/globals.css"; */
+
+
+  
+.App{
+    background-color: black;
+    width: 100%;
+    /* min-height: 100vh; */
+    max-height: max-content;
+    display: flex;
+    flex-direction: column;
+}

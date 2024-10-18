@@ -9,6 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@fontsource/outfit": "^5.0.13",
+    "@fontsource/roboto": "^5.0.14",
+    "@fortawesome/fontawesome-svg-core": "^6.6.0",
+    "@fortawesome/free-brands-svg-icons": "^6.6.0",
+    "@fortawesome/free-solid-svg-icons": "^6.6.0",
+    "@fortawesome/react-fontawesome": "^0.2.2",
     "@tsparticles/react": "^3.0.0",
     "@tsparticles/slim": "^3.5.0",
     "framer-motion": "^11.5.2",
@@ -16,6 +22,7 @@
     "react": "^18",
     "react-dom": "^18",
     "sass": "^1.78.0",
-    "sharp": "^0.33.5"
+    "sharp": "^0.33.5",
+    "swiper": "^11.1.14"
   }
 }

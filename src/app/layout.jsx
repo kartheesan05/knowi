@@ -1,8 +1,7 @@
-import "./globals.scss";
 
 export const metadata = {
-  title: "Team",
-  description: "Knowi club members academic year 2024-2025",
+  title: "Know-I",
+  description: "Know-I Club",
 };
 
 export default function RootLayout({ children }) {
