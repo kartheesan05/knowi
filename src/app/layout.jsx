@@ -1,4 +1,4 @@
-
+import './resources.css';
 export const metadata = {
   title: "Know-I",
   description: "Know-I Club",
