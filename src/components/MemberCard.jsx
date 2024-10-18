@@ -21,9 +21,9 @@ function MemberCard({ name, designation, imageUrl, linkedin }) {
         <h3>{name}</h3>
         <p>{designation}</p>
       </div>
-      <a href={linkedin} target="_blank">
+      {linkedin !== "no acc" && <a href={linkedin} target="_blank">
         <img className="linkedin" src="/linkedin.svg" alt="linkedin" />
-      </a>
+      </a>}
     </div>
   );
 }

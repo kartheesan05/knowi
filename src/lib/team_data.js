@@ -352,7 +352,7 @@ export const web = [
     "name": "Nithiyanandam S",
     "designation": "Web Developer",
     "photo": "https://drive.google.com/open?id=1HXn5TaKw1BDcOLZpJq4leBUfmYK8lgmr",
-    "linkedin": "no acc ",
+    "linkedin": "no acc",
     "pic": "Nithiyanandam.webp"
   },
   {
