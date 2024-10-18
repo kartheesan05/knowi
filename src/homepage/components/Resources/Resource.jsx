@@ -1,5 +1,6 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
+
 import './resources.css';
 // import ai from './Resources_images/ai_resource.png';
 // import de from './Resources_images/de_resources.png';
