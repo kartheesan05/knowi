@@ -67,6 +67,12 @@
   color: #fff;
 }
 
+.seeAllLink{
+  color: #fff;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
 .cardrole{
   font-size: 1.2rem;
   margin:  10px;

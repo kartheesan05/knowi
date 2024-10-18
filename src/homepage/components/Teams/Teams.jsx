@@ -2,7 +2,7 @@
 import React, { useRef } from 'react';
 import { motion, useTransform, useScroll } from 'framer-motion';
 import styles from './Teams.module.css'; 
-import Link from 'next/link';
+// import Link from 'next/link';
 // import messipic from './meesi.png'
 // import president from './office_bearers/IMG_0012 2 - RAAGA PRIYA J K.jpg'
 // import vp from './office_bearers/IMG_7187 - 014 GAYATHRI MOHANRAJU AI&DS.jpeg'
@@ -46,7 +46,7 @@ const HorizontalScrollCarousel = () => {
             <Card card={card} key={card.id} />
           ))}
           {/* <a href="#" className={styles.seeAllLink}>See all...</a> */}
-          <Link href="/team" className={styles.seeAllLink}>See all...</Link>
+          <a href="/team" className={styles.seeAllLink}>See all...</a>
         </motion.div>
       </div>
     </section>
