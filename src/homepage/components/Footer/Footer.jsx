@@ -7,7 +7,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faInstagram, faLinkedin, faYoutube} from '@fortawesome/free-brands-svg-icons'
 export const Footer = () => {
   return (
-    <footer className={styles.footer_container}>
+    <footer className={styles.footer}>
 
 
 
